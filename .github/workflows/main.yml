@@ -20,4 +20,6 @@ jobs:
       - name: Compile and Run
         run: |
           javac -d out src/*.java
-          java -cp out MainClass
+          java -cp out TaskOne
+          java -cp out TaskTwo
+          java -cp out TaskThree
